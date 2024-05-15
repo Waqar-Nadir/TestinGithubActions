@@ -22,7 +22,7 @@ jobs:
         uses: QAInsights/PerfAction@v5.6.2
         with:
           # JMeter test plan to execute
-          test-plan-path: './Testing GithubActions.jmx'
+          test-plan-path: './TestingGithubActions.jmx'
       - name: Upload Results
         uses: actions/upload-artifact@v3
         with:
